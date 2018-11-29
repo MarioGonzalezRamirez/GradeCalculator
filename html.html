@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grade Calculator</title>
+
+    <link rel="stylesheet" href="css.css">
+    <script src = "script.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+
+<div id="table">
+<table>
+    <tr>
+        <td colspan="2"><h1>Grade Calculator</h1></td>
+    </tr>
+    <tr>
+        <td>Homework Points</td>
+        <td>Homework Weight</td>
+    </tr>
+    <tr>
+        <td><input type="text" id="homeworkPoints" value="100,90,95" size="25"></td>
+        <td><input type="text" id="homeworkWeight" value="20" size="25"></td>
+    <tr/>
+    <tr>
+        <td>Classwork Points</td>
+        <td>Classwork Weight</td>
+    </tr>
+    <tr>
+        <td><input type="text" id="classworkPoints" value="85,87,82" size="25"></td>
+        <td><input type="text" id="classworkWeight" value="20" size="25"></td>
+    </tr>
+    <tr>
+        <td>Assessment Points</td>
+        <td>Assessment Weight</td>
+    </tr>
+    <tr>
+        <td><input type="text" id="assessmentPoints" value="75,70,73" size="25"></td>
+        <td><input type="text" id="assessmentWeight" value="20" size="25"></td>
+    </tr>
+    <tr>
+        <td>Participation Points</td>
+        <td>Participation Weight</td>
+    </tr>
+    <tr>
+        <td><input type="text" id="participationPoints" value="69,67,66" size="25"></td>
+        <td><input type="text" id="participationWeight" value="20" size="25"></td>
+    </tr>
+    <tr>
+        <td colspan="2">Total Weight(must add up to 100%)</td>
+    </tr>
+    <tr>
+        <td colspan="2"><div id="percent"></div></td>
+    </tr>
+    <tr>
+        <td colspan="2"><div id="TheButton">
+            <button class="w3-button w3-black" id = "button" onclick="start()">Calculate Grade</button>
+        </div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2"><div id="calculateGrade"></div></td>
+    </tr>
+    <tr>
+        <td colspan="2"><h2>Finals Calculator</h2></td>
+    </tr>
+    <tr>
+        <td>Grade Desired</td>
+        <td>Final Weight</td>
+    </tr>
+    <tr>
+        <td><input type="text" id="gradeDesired" value="95" size="25"></td>
+        <td><input typ="text" id="finalWeight" value="20" size="25"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><div id="theSecondButton">
+            <button class="w3-button w3-black" id = "buttonTwo" onclick="calculateFinal()">Calculate Grade Required</button>
+        </div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2"><div id="gradeRequired"></div></td>
+    </tr>
+</table>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
